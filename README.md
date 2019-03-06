@@ -4,6 +4,8 @@ a minesweeper bot for discord
 
 # what?
 
+![minesweeper bot for discord](https://i.imgur.com/8UDe9Bm.png)
+
 this is a quick and dirty bot that will pop a minesweeper field in your discord server
 
 very quickly put together for my fun purposes
