@@ -63,7 +63,7 @@ client.on('message', msg => {
 			if (board.length > 2500) {
 				msg.channel.send("nope :) check your board size").catch((err)=>console.log(err));
 			} else {
-				msg.channel.send(generateBoard(h,w,m)).catch((err)=>console.log(err));
+				msg.channel.send(board).catch((err)=>console.log(err));
 			}
 		}
 	}
