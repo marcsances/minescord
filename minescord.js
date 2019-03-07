@@ -59,7 +59,7 @@ client.on('message', msg => {
 		if (w <= 0 || w > 30 || h <= 0 || h > 30 || m <= 0 || m > 60 || m > (w*h)) {
 			msg.channel.send("nope :( check your board size").catch((err)=>console.log(err));
 		} else {
-			board = generateBoard((h,w,m));
+			board = generateBoard(h,w,m);
 			if (board.length > 2500) {
 				msg.channel.send("nope :) check your board size").catch((err)=>console.log(err));
 			} else {
