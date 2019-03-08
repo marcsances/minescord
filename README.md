@@ -24,6 +24,7 @@ I'm considering hosting it for everyone, just not yet. If you want to use it now
 
 ```
 export DISCORD_USER_TOKEN=your_bot_user_token
+export LANG=en                       # or es, or ca
 npm install
 npm start
 ```
