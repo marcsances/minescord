@@ -57,7 +57,7 @@ client.on('message', msg => {
 	testre = /^!mines ([0-9]+),([0-9]+),([0-9]+)$/;
 
 	if (msg.content === '!mines') {
-		msg.channel.send(generateBoard(10,10,15)).catch((err)=>console.log(err));
+		msg.channel.send(generateBoard(10,10,15).join('\n')).catch((err)=>console.log(err));
 	} else if (testre.test(msg.content)) {
 		matches = msg.content.match(testre);
 		h = matches[1];
