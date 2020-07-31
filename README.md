@@ -18,7 +18,9 @@ minesweeper for node.js to generate the boards, discord.js for the bot things, d
 
 # can I play it?
 
-I'm considering hosting it for everyone, just not yet. If you want to use it now, install it manually.
+You can invite my instance to your server using this link: [Invite Minescord to your Discord server](https://discord.com/oauth2/authorize?client_id=552945990886227969&scope=bot&permissions=3072).
+
+However, it runs in Spanish. But it can work for you to have a demo on how it works.
 
 # setup
 
